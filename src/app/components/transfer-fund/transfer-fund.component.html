@@ -1,6 +1,0 @@
-<section class="transfer-fund">
-    <form [formGroup]="transferFundForm">
-        <input type="number" formControlName="amount">
-        <button class="btn btn-primary" (click)="onTransfer()" [disabled]="transferFundForm.invalid || transferFundForm.pristine">Transfer</button>
-    </form>
-</section>
