@@ -1,0 +1,15 @@
+<div class=" main-layout">
+    <div class="edit-form-container">
+        <div class="img-container">
+            <img class="edit-form-img" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="">
+        </div>
+        <form class="edit-form" [formGroup]="editContactForm">
+            <input type="text" formControlName="name" placeholder="name">
+            <input type="email" formControlName="email" placeholder="email" >
+            <input type="phone" formControlName="phone" placeholder="phone" >
+            <div class="btn-section">
+                <button class="btn btn-primary" (click)="onSaveContat()" [disabled]="editContactForm.invalid || editContactForm.pristine">Save</button>
+            </div>
+        </form>
+    </div>
+</div>

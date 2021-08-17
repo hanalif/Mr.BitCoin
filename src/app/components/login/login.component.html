@@ -1,0 +1,13 @@
+<form class="login-form main-layout" [formGroup]="loginForm">
+    <div class="logo-container">
+        <i class="fab fa-bitcoin"></i>
+    </div>
+    <div class="info-section">
+        <input type="text" formControlName="username" placeholder="username">
+        <input type="password" formControlName="password" placeholder="password" >
+    </div>
+    <div class="btns-section">
+        <button class="btn btn-primary" (click)="onLogin()" [disabled]="loginForm.invalid || loginForm.pristine">Login</button>
+        <button class="btn btn-primary" (click)="onSignup()" [disabled]="loginForm.invalid || loginForm.pristine">Signup</button>
+    </div>
+</form>

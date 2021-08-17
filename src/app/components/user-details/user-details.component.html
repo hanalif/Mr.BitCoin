@@ -1,0 +1,12 @@
+<div class="main-layout">
+    <div class="user-details">
+        <div class="user-welcome-container">
+            <h1>Hi,{{loggedInUser.username}}</h1>
+        </div>
+        <div class="user-info-contaner">
+            <h6 class="curent-balance-title">CURENT BALANCE</h6>
+            <h1 class="coins-title">₿{{loggedInUser.coins}}</h1>
+        </div>
+        <app-move-list *ngIf="userMoves && userMoves.length !== 0" [userMoves]="userMoves" [isContactNameNeedsToRender]="true"></app-move-list>
+    </div>
+</div>

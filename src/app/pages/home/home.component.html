@@ -1,0 +1,7 @@
+<section class="home-page">
+    <div *ngIf="!loggedInUser" class="login-container">
+        <app-login (login)="onLogin($event)" (signup)="onSignup($event)"></app-login>
+    </div>
+    <app-user-details *ngIf="loggedInUser"></app-user-details>
+
+</section>

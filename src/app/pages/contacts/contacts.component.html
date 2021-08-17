@@ -1,0 +1,15 @@
+<section class="contacts-page">
+    <div class="contact-app">
+        <app-contacts-filter></app-contacts-filter>
+        <ng-template #noContacts>
+            <h1 >No contacts to show yet</h1>
+        </ng-template>
+        <div class="main-layout">
+            <a class="add-contact-btn btn btn-primary" routerLink="/edit"><i class="fas fa-plus"></i></a>
+        </div>
+        <div class="transfer-moves-container">
+            <app-contact-list *ngIf="(contacts$ | async).length !== 0; else noContacts" [contacts]="contacts$ | async" (onDeleteContact)="deleteContact($event)"></app-contact-list>
+        </div>
+    </div>
+   
+</section>

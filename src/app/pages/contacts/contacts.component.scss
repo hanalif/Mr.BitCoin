@@ -1,0 +1,17 @@
+.contacts-page{
+    position: relative;
+    .contact-app{
+        display: flex;
+    flex-direction: column;
+    gap: 13px;
+    }
+    .add-contact-btn{
+        position: fixed;
+        bottom: 38px;
+        right: 31px;
+        border-radius: 50%;
+        i{
+            color: white;
+        }
+    }
+}
