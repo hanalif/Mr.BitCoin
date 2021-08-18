@@ -28,7 +28,8 @@ export class ContactService {
 
 
   public loadContacts(filterBy: FilterBy = null): void {
-    let contacts = this._getLoggedinUserContacts()
+    // let contacts = this._getLoggedinUserContacts()
+    let contacts = this._contactsDb;
     if (filterBy && filterBy.term) {
       contacts = this._filter(contacts, filterBy.term)
     }

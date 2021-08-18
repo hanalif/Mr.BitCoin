@@ -2,7 +2,9 @@
     <div class="contact-app">
         <app-contacts-filter></app-contacts-filter>
         <ng-template #noContacts>
-            <h1 >No contacts to show yet</h1>
+            <div class="main-layout no-contacts-to-show-title">
+                <h1>No contacts to show</h1>
+            </div>
         </ng-template>
         <div class="main-layout">
             <a class="add-contact-btn btn btn-primary" routerLink="/edit"><i class="fas fa-plus"></i></a>
