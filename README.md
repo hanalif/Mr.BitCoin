@@ -7,9 +7,9 @@ A Mobile application which allows users to keep track of their bitcoin ballance.
 [MisterBitCoin](https://hanalif.github.io/mister-bitcoin/ "MisterBitCoin")
 
 ## Contact Me
-LinkedIn: https://www.linkedin.com/in/hana-lipschutz
+[Linkedin]( https://www.linkedin.com/in/hana-lipschutz "Linkedin")
 <br />
-Email address:   hanalif619@gmail.com 	
+Email:   hanalif619@gmail.com 	
 
 
 
