@@ -9,6 +9,7 @@ A Mobile application which allows users to keep track of their bitcoin ballance.
 ## Contact Me
 [Linkedin]( https://www.linkedin.com/in/hana-lipschutz "Linkedin")
 <br />
+<br />
 Email:   hanalif619@gmail.com 	
 
 
