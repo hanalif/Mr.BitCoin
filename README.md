@@ -1,16 +1,14 @@
 # MisterBitCoin
 
-This project was generated with Angular.
 A Mobile application which allows users to keep track of their bitcoin ballance. 
 
-## Demo 
-https://youtube.com/shorts/hMVNM8yCsgY?feature=share
+[Demo](https://youtube.com/shorts/hMVNM8yCsgY?feature=share "Demo")
 
-## Link
-https://hanalif.github.io/mister-bitcoin/
+[MisterBitCoin](https://hanalif.github.io/mister-bitcoin/ "MisterBitCoin")
 
 ## Contact Me
 LinkedIn: https://www.linkedin.com/in/hana-lipschutz
 Email address:   hanalif619@gmail.com 	
-GitHub: https://github.com/hanalif
+
+
 
